@@ -19,7 +19,7 @@ export function Reviews() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading eyebrow={t("eyebrow")} title={t("title")} description={t("description")} />
         <div className="mt-14 grid gap-5 md:grid-cols-3">
-          {reviews.map((review, index) => (
+          {reviews.map((review) => (
             <article
               key={review.name}
               className="group glass-card relative flex flex-col rounded-[1.7rem] p-7 transition duration-500 hover:-translate-y-2 hover:border-lantern/30"

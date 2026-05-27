@@ -42,7 +42,7 @@ export function Hero() {
       <Navbar />
 
       {/* メインコンテンツ */}
-      <div className="relative z-10 mx-auto flex min-h-svh max-w-7xl flex-col justify-center px-5 pb-28 pt-32 sm:px-8">
+      <div className="relative z-10 mx-auto flex min-h-svh max-w-7xl flex-col justify-center px-5 pb-24 pt-28 sm:px-8 sm:pb-28 sm:pt-32">
         <motion.div
           className="max-w-4xl"
           initial={{ opacity: 0, y: 32 }}
@@ -51,7 +51,7 @@ export function Hero() {
         >
           {/* ロケーションバッジ */}
           <motion.div
-            className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/8 px-4 py-2 text-xs font-bold tracking-[0.2em] text-mist backdrop-blur-md"
+            className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/8 px-3.5 py-2 text-[11px] font-bold tracking-[0.14em] text-mist backdrop-blur-md sm:mb-6 sm:px-4 sm:text-xs sm:tracking-[0.2em]"
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.15 }}
@@ -61,27 +61,27 @@ export function Hero() {
           </motion.div>
 
           {/* メインキャッチコピー */}
-          <h1 className="font-display text-5xl font-semibold leading-[1.08] tracking-[-0.03em] text-white sm:text-7xl lg:text-8xl xl:text-9xl">
+          <h1 className="font-display text-[2.65rem] font-semibold leading-[1.13] tracking-[-0.03em] text-white min-[380px]:text-5xl sm:text-7xl lg:text-8xl xl:text-9xl">
             {t("hero.title")}
           </h1>
 
-          <p className="mt-6 max-w-xl text-base leading-8 text-mist/82 sm:text-xl sm:leading-9">
+          <p className="mt-5 max-w-76 text-sm leading-7 text-mist/82 min-[380px]:max-w-sm min-[380px]:text-base sm:mt-6 sm:max-w-xl sm:text-xl sm:leading-9">
             {t("hero.subtitle")}
           </p>
 
           {/* CTAボタン */}
-          <div className="mt-9 flex flex-wrap gap-4">
-            <CTAButton href="#reserve" className="px-8 py-4 text-sm">
+          <div className="mt-7 flex flex-col gap-3 min-[420px]:max-w-sm sm:mt-9 sm:flex-row sm:flex-wrap sm:gap-4 sm:max-w-none">
+            <CTAButton href="#reserve" className="w-full px-6 py-3.5 text-xs sm:w-auto sm:px-8 sm:py-4 sm:text-sm">
               {t("hero.reserve")}
             </CTAButton>
-            <CTAButton href="#menu" variant="secondary" className="px-8 py-4 text-sm">
+            <CTAButton href="#menu" variant="secondary" className="w-full px-6 py-3.5 text-xs sm:w-auto sm:px-8 sm:py-4 sm:text-sm">
               {t("hero.menu")}
             </CTAButton>
           </div>
 
           {/* 営業時間インジケーター */}
           <motion.div
-            className="mt-8 inline-flex items-center gap-2.5 text-xs text-mist/60"
+            className="mt-5 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-[11px] text-mist/60 sm:mt-8 sm:inline-flex sm:text-xs"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
@@ -91,6 +91,10 @@ export function Hero() {
             <span className="inline-block size-1.5 rounded-full bg-green-400 shadow-[0_0_8px_rgba(74,222,128,0.8)]" />
             <span className="text-green-400/90">本日営業中</span>
           </motion.div>
+
+          <div className="mt-4 max-w-76 min-[380px]:max-w-sm sm:hidden">
+            <HeroInstagramCard />
+          </div>
         </motion.div>
 
         {/* マスコット */}
@@ -104,7 +108,7 @@ export function Hero() {
         </motion.div>
 
         {/* Instagramカード */}
-        <div className="absolute bottom-20 right-4 z-20 w-[calc(100%-2rem)] max-w-xs sm:right-8 sm:w-72 lg:right-10 lg:bottom-24">
+        <div className="absolute bottom-20 right-4 z-20 hidden w-[calc(100%-2rem)] max-w-xs sm:block sm:right-8 sm:w-72 lg:right-10 lg:bottom-24">
           <HeroInstagramCard />
         </div>
       </div>
