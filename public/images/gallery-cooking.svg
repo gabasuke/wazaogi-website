@@ -1,0 +1,11 @@
+<svg width="900" height="640" viewBox="0 0 900 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="640" fill="#0B1728"/>
+  <circle cx="718" cy="116" r="185" fill="#FF9F43" opacity=".18"/>
+  <rect x="112" y="230" width="676" height="230" rx="42" fill="#181815"/>
+  <rect x="178" y="292" width="544" height="92" rx="22" fill="#2A2018"/>
+  <path d="M230 334C348 260 552 260 670 334" stroke="#FF9F43" stroke-width="20" stroke-linecap="round" opacity=".58"/>
+  <path d="M278 348C360 384 532 386 620 344" stroke="#E5E5E5" stroke-width="8" stroke-linecap="round" opacity=".28"/>
+  <path d="M302 240C270 188 318 160 288 108M450 238C418 184 470 158 438 106M598 240C566 188 620 158 590 106" stroke="#E5E5E5" stroke-width="10" stroke-linecap="round" opacity=".23"/>
+  <rect x="384" y="92" width="132" height="150" rx="66" fill="#FF9F43"/>
+  <text x="52" y="88" fill="#FFFFFF" font-family="serif" font-size="42" font-weight="700">Teppan Cooking</text>
+</svg>

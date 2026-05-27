@@ -1,0 +1,282 @@
+{
+  "brand": {
+    "name": "Teppan Izakaya Wazaogi"
+  },
+  "nav": {
+    "about": "About",
+    "menu": "Menu",
+    "gallery": "Inside",
+    "features": "Local",
+    "access": "Access",
+    "reserve": "Reserve"
+  },
+  "hero": {
+    "location": "A local teppan izakaya in Okawa, Ishigaki",
+    "title": "Make your Ishigaki night taste better.",
+    "subtitle": "Slow down with teppan dishes, drinks, and the easy rhythm of a local island night.",
+    "reserve": "Reserve a table",
+    "menu": "View menu",
+    "mascot": "Black French bulldog mascot",
+    "instagram": {
+      "title": "Fresh updates on Instagram",
+      "status": "Live updates",
+      "tags": ["Tonight's specials", "New menu", "Hours", "Inside the shop"]
+    },
+    "scroll": "Scroll to explore",
+    "imageAlt": "A warm teppan izakaya glowing at night in Ishigaki"
+  },
+  "about": {
+    "eyebrow": "About Wazaogi",
+    "title": "Local enough to feel real, welcoming enough for travelers.",
+    "description": "Teppan Izakaya Wazaogi is a local hideaway a short walk from central Ishigaki. It is loved by locals, repeat visitors, and people who work late in the restaurant scene. Open until late, it works just as well for dinner as it does for a second stop after drinks.",
+    "imageAlt": "A cozy teppan izakaya interior with steam and warm lighting",
+    "badgeTitle": "Open until 1 AM",
+    "badgeText": "A local teppan spot for late nights",
+    "features": {
+      "local": {
+        "title": "Local Feel",
+        "text": "Casual, warm, and comfortable without feeling made for tourists."
+      },
+      "travel": {
+        "title": "Traveler Friendly",
+        "text": "Easy to step into even on your first night in Ishigaki."
+      },
+      "warm": {
+        "title": "Teppan Heat",
+        "text": "The sound and aroma from the hot plate make the drinks taste better."
+      }
+    }
+  },
+  "menu": {
+    "eyebrow": "Popular Menu",
+    "title": "Local favorites for a proper Ishigaki night.",
+    "description": "From signature sticky nori rolls and Ishigaki beef to fresh sashimi, sea grapes, and island awamori.",
+    "items": [
+      {
+        "key": "nebanebaRoll",
+        "name": "Sticky Nori Roll",
+        "description": "A popular roll with grated yam and other sticky ingredients wrapped in nori.",
+        "price": "¥780"
+      },
+      {
+        "key": "teppanMeat",
+        "name": "Teppan Grilled Meat",
+        "description": "Juicy meat cooked boldly on the hot plate with a deep, savory aroma.",
+        "price": "¥1,280"
+      },
+      {
+        "key": "ishigakiBeef",
+        "name": "Ishigaki Wagyu Beef",
+        "description": "Premium Ishigaki wagyu on the teppan. Rich, buttery, and deeply satisfying.",
+        "price": "¥2,480"
+      },
+      {
+        "key": "sashimi",
+        "name": "Island Fish Sashimi",
+        "description": "Fresh catch from the waters around Ishigaki. Best paired with cold awamori.",
+        "price": "¥1,480"
+      },
+      {
+        "key": "umibudu",
+        "name": "Sea Grapes",
+        "description": "Okinawa's ocean treasure with a satisfying pop. Light, refreshing, and easy to snack on.",
+        "price": "¥680"
+      },
+      {
+        "key": "teppanVeg",
+        "name": "Teppan Vegetables",
+        "description": "Simple grilled vegetables that bring out the natural sweetness of the ingredients.",
+        "price": "¥880"
+      },
+      {
+        "key": "awamori",
+        "name": "Ishigaki Awamori",
+        "description": "Local awamori from an Ishigaki distillery. On the rocks, with water, or sparkling.",
+        "price": "¥600+"
+      },
+      {
+        "key": "drinks",
+        "name": "Drinks",
+        "description": "Beer, sours, cocktails, and more. Great for dinner or a late-night stop.",
+        "price": "¥550+"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Inside",
+    "title": "Close to the lantern light, the grill, and the local night.",
+    "description": "Counter seats, tables, tatami room, and the cooking scene. Small, warm, and easy to settle into.",
+    "close": "Close",
+    "items": [
+      {
+        "key": "counter",
+        "title": "Counter Seats",
+        "description": "A comfortable place for solo diners and small groups near the sound of the grill."
+      },
+      {
+        "key": "table",
+        "title": "Table Seats",
+        "description": "Easygoing seats for friends, couples, and casual family meals."
+      },
+      {
+        "key": "interior",
+        "title": "Dining Room",
+        "description": "Wood textures, warm lighting, and lanterns create a real local izakaya mood."
+      },
+      {
+        "key": "zashiki",
+        "title": "Tatami Room",
+        "description": "Relax on the floor in the tatami room — ideal for groups looking for a cozy, slow evening."
+      },
+      {
+        "key": "cooking",
+        "title": "Teppan Cooking",
+        "description": "The steam, sound, and aroma from the hot plate pull you into the night."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Local Details",
+    "title": "Why it feels easy to visit.",
+    "description": "Practical details that make the restaurant useful for travelers and locals alike.",
+    "items": [
+      {
+        "key": "late",
+        "title": "Open until 1 AM",
+        "text": "Good for dinner, late drinks, or a second stop after the main event."
+      },
+      {
+        "key": "monday",
+        "title": "Open Every Day",
+        "text": "No regular holidays. Easy to fit into any travel itinerary."
+      },
+      {
+        "key": "card",
+        "title": "Cards Accepted",
+        "text": "Convenient for travelers who prefer cashless payment."
+      },
+      {
+        "key": "walk",
+        "title": "4-5 Min Walk",
+        "text": "A short walk from the 730 intersection and the main bus terminal."
+      },
+      {
+        "key": "local",
+        "title": "Local Favorite",
+        "text": "A hideaway loved by locals and repeat visitors to Ishigaki."
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Guest Voice",
+    "title": "The kind of place that feels like a good find.",
+    "description": "Less like a tourist set piece, more like a real Ishigaki night.",
+    "items": [
+      {
+        "quote": "Locals were eating here, so we knew it had to be good. We'll definitely be back next time.",
+        "name": "Traveler in Ishigaki",
+        "source": "Google Review"
+      },
+      {
+        "quote": "We came for a second stop and ended up staying much longer than planned.",
+        "name": "Repeat guest",
+        "source": "Tabelog"
+      },
+      {
+        "quote": "The grill aroma, awamori, and Ishigaki beef made the night unforgettable.",
+        "name": "Visiting guests",
+        "source": "Instagram"
+      }
+    ]
+  },
+  "instagram": {
+    "eyebrow": "Instagram",
+    "title": "Tonight at Wazaogi",
+    "description": "Food, the room, and Ishigaki nights. Follow Instagram for the latest updates.",
+    "view": "View on Instagram",
+    "posts": [
+      {
+        "key": "teppan",
+        "title": "Tonight's teppan grill",
+        "time": "Tonight 18:30",
+        "likes": "128",
+        "text": "The sound, steam, and aroma of tonight's recommendation."
+      },
+      {
+        "key": "roll",
+        "title": "Healthy sticky nori roll",
+        "time": "Yesterday",
+        "likes": "96",
+        "text": "A local favorite that is light, satisfying, and great with awamori."
+      },
+      {
+        "key": "interior",
+        "title": "Inside the shop",
+        "time": "2 days ago",
+        "likes": "142",
+        "text": "Lantern light, wood textures, and a room that feels easy to enter."
+      },
+      {
+        "key": "local",
+        "title": "Local favorite menu",
+        "time": "This week",
+        "likes": "117",
+        "text": "Start with the teppan dishes if you want to join the local night."
+      },
+      {
+        "key": "night",
+        "title": "Ishigaki night",
+        "time": "This week",
+        "likes": "154",
+        "text": "A warm light waiting just off the main streets."
+      }
+    ],
+    "cta": {
+      "eyebrow": "Follow Us",
+      "title": "Take a look at tonight's Wazaogi",
+      "description": "Daily specials and opening updates are posted on Instagram.",
+      "button": "View Instagram"
+    }
+  },
+  "access": {
+    "eyebrow": "Access",
+    "title": "A short walk from the center, perfect for finding at night.",
+    "description": "Located about 4-5 minutes on foot from the 730 intersection and bus terminal.",
+    "name": "Restaurant",
+    "address": "Address",
+    "access": "Access",
+    "hours": "Hours",
+    "budget": "Budget",
+    "phone": "Phone",
+    "mapTitle": "Google Map around Teppan Izakaya Wazaogi"
+  },
+  "reservation": {
+    "eyebrow": "Reservation",
+    "title": "Reserve your Ishigaki night",
+    "description": "Seats are limited. Book through LINE, Tabelog, or Hot Pepper using whichever is easiest for you.",
+    "mascotAlt": "Black French bulldog mascot",
+    "mascotNote": "Our little mascot is waiting for tonight's toast, too.",
+    "button": "Book now",
+    "cards": {
+      "line": {
+        "title": "LINE Booking",
+        "text": "A quick way to check availability and make a reservation."
+      },
+      "tabelog": {
+        "title": "Tabelog",
+        "text": "Check reviews and restaurant details before booking."
+      },
+      "hotpepper": {
+        "title": "Hot Pepper",
+        "text": "Useful for points, coupons, and easy online reservations."
+      }
+    }
+  },
+  "footer": {
+    "lead": "Ishigaki night air, the heat of the teppan grill, and a drink among locals. A late-night teppan izakaya with a real island feel.",
+    "mascot": "Black French bulldog mascot",
+    "instagram": "Instagram",
+    "follow": "Follow",
+    "hours": "Hours"
+  }
+}

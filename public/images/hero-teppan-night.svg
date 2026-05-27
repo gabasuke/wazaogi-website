@@ -1,0 +1,32 @@
+<svg width="1800" height="1200" viewBox="0 0 1800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1800" height="1200" fill="#0B1728"/>
+  <circle cx="1380" cy="190" r="260" fill="#2F7D5E" opacity=".22"/>
+  <circle cx="690" cy="440" r="360" fill="#FF9F43" opacity=".18"/>
+  <path d="M0 780C280 675 502 666 720 726C1038 813 1265 640 1800 560V1200H0V780Z" fill="#07111D"/>
+  <rect x="492" y="325" width="816" height="600" rx="34" fill="#24150D"/>
+  <path d="M440 320H1360L1278 224H522L440 320Z" fill="#3B2415"/>
+  <rect x="565" y="400" width="670" height="420" rx="20" fill="#120C08"/>
+  <rect x="620" y="635" width="560" height="84" rx="24" fill="#4C2B18"/>
+  <rect x="670" y="574" width="460" height="80" rx="18" fill="#1B1B18"/>
+  <path d="M710 610C808 565 1002 560 1090 612" stroke="#FF9F43" stroke-width="18" stroke-linecap="round" opacity=".55"/>
+  <path d="M738 608C820 635 996 636 1066 607" stroke="#E5E5E5" stroke-width="7" stroke-linecap="round" opacity=".38"/>
+  <g opacity=".8">
+    <path d="M790 545C760 496 804 478 780 430" stroke="#E5E5E5" stroke-width="10" stroke-linecap="round" opacity=".25"/>
+    <path d="M920 548C890 500 940 476 910 426" stroke="#E5E5E5" stroke-width="10" stroke-linecap="round" opacity=".24"/>
+    <path d="M1038 546C1010 503 1060 476 1036 430" stroke="#E5E5E5" stroke-width="10" stroke-linecap="round" opacity=".22"/>
+  </g>
+  <rect x="825" y="165" width="150" height="206" rx="75" fill="#FF9F43"/>
+  <path d="M830 230H970M830 316H970" stroke="#7A2E12" stroke-width="8" opacity=".45"/>
+  <path d="M900 165V104" stroke="#C66A25" stroke-width="10" stroke-linecap="round"/>
+  <rect x="330" y="500" width="90" height="132" rx="45" fill="#FF9F43" opacity=".65"/>
+  <rect x="1390" y="455" width="84" height="124" rx="42" fill="#FF9F43" opacity=".58"/>
+  <path d="M0 980C250 930 506 965 754 1018C1040 1080 1340 1050 1800 930V1200H0V980Z" fill="#050910" opacity=".78"/>
+  <rect width="1800" height="1200" fill="url(#grain)" opacity=".32"/>
+  <defs>
+    <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="18" r="1" fill="#fff" opacity=".16"/>
+      <circle cx="62" cy="42" r="1" fill="#fff" opacity=".11"/>
+      <circle cx="37" cy="78" r="1" fill="#fff" opacity=".14"/>
+    </pattern>
+  </defs>
+</svg>

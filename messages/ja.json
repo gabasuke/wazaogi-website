@@ -1,0 +1,282 @@
+{
+  "brand": {
+    "name": "鉄板居酒屋 わざおぎ"
+  },
+  "nav": {
+    "about": "About",
+    "menu": "Menu",
+    "gallery": "Inside",
+    "features": "Local",
+    "access": "Access",
+    "reserve": "Reserve"
+  },
+  "hero": {
+    "location": "石垣島・大川のローカル鉄板居酒屋",
+    "title": "石垣島の夜を、もっと旨く。",
+    "subtitle": "地元に愛される鉄板居酒屋で、島時間をゆっくり味わう。",
+    "reserve": "席を予約する",
+    "menu": "メニューを見る",
+    "mascot": "黒フレンチブルドッグの看板犬",
+    "instagram": {
+      "title": "Instagramで最新情報更新中",
+      "status": "更新中",
+      "tags": ["今日のおすすめ", "新メニュー", "営業情報", "店内の雰囲気"]
+    },
+    "scroll": "スクロールして詳しく見る",
+    "imageAlt": "石垣島の夜に暖簾と鉄板の灯りが見える居酒屋"
+  },
+  "about": {
+    "eyebrow": "About Wazaogi",
+    "title": "観光地っぽくない、でも旅人にもやさしい店。",
+    "description": "鉄板居酒屋わざおぎは、石垣島の中心地から少し歩いた場所にある、地元の人やリピーターに愛されるローカル居酒屋です。深夜まで営業しているため、観光客はもちろん、地元の方や飲食関係者にも親しまれています。1軒目でも、2軒目でも、気軽に立ち寄れる空間です。",
+    "imageAlt": "鉄板の湯気と暖色照明が広がる店内",
+    "badgeTitle": "深夜1時まで",
+    "badgeText": "地元客も集まる鉄板酒場",
+    "features": {
+      "local": {
+        "title": "ローカル感",
+        "text": "肩肘張らずに入れて、常連の空気も感じられる居心地。"
+      },
+      "travel": {
+        "title": "旅人にも安心",
+        "text": "初めての石垣島でも入りやすい、あたたかい距離感。"
+      },
+      "warm": {
+        "title": "鉄板の熱気",
+        "text": "ジュウジュウと焼ける音と香りが、夜の一杯を進めます。"
+      }
+    }
+  },
+  "menu": {
+    "eyebrow": "Popular Menu",
+    "title": "地元の夜に混ざりたくなる、人気メニュー。",
+    "description": "名物のネバネバのり巻きから、石垣牛、お刺身、島の泡盛まで。鉄板の熱気とともに楽しむ一皿。",
+    "items": [
+      {
+        "key": "nebanebaRoll",
+        "name": "ネバネバのり巻き",
+        "description": "とろろなどのネバネバ食材を海苔に巻いたヘルシーな名物メニュー。",
+        "price": "¥780"
+      },
+      {
+        "key": "teppanMeat",
+        "name": "鉄板焼き肉",
+        "description": "鉄板で豪快に焼き上げるジューシーな逸品。香ばしさまでごちそうです。",
+        "price": "¥1,280"
+      },
+      {
+        "key": "ishigakiBeef",
+        "name": "石垣牛の鉄板焼き",
+        "description": "ブランド牛の石垣牛を鉄板で贅沢に。口の中でとろける旨みが格別。",
+        "price": "¥2,480"
+      },
+      {
+        "key": "sashimi",
+        "name": "島魚のお刺身",
+        "description": "石垣島近海で獲れた新鮮な魚介を贅沢に。泡盛との相性は言わずもがな。",
+        "price": "¥1,480"
+      },
+      {
+        "key": "umibudu",
+        "name": "海ぶどう",
+        "description": "プチプチとした食感が楽しい沖縄の宝石。さっぱりとつまめる一品。",
+        "price": "¥680"
+      },
+      {
+        "key": "teppanVeg",
+        "name": "鉄板野菜焼き",
+        "description": "素材の旨味を引き出す鉄板料理。お酒の合間にも食べやすい一皿。",
+        "price": "¥880"
+      },
+      {
+        "key": "awamori",
+        "name": "島の泡盛",
+        "description": "石垣島の蔵元から仕入れる地元の泡盛。ロック、水割り、炭酸割りでどうぞ。",
+        "price": "¥600〜"
+      },
+      {
+        "key": "drinks",
+        "name": "お酒・ドリンク",
+        "description": "ビール、サワー、カクテルと豊富なドリンクラインナップ。1軒目にも2軒目にも。",
+        "price": "¥550〜"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Inside",
+    "title": "提灯と鉄板の熱気が近い、こぢんまりした居心地。",
+    "description": "カウンター、テーブル、座敷、料理風景。初めてでも入りやすい距離感です。",
+    "close": "閉じる",
+    "items": [
+      {
+        "key": "counter",
+        "title": "カウンター席",
+        "description": "一人でもふらっと座れる、鉄板の音と香りが近い席。"
+      },
+      {
+        "key": "table",
+        "title": "テーブル席",
+        "description": "友人や家族で料理を囲める、ほどよく賑やかな席。"
+      },
+      {
+        "key": "interior",
+        "title": "店内全体",
+        "description": "木目と暖色照明、提灯がつくるローカル居酒屋の空気。"
+      },
+      {
+        "key": "zashiki",
+        "title": "座敷席",
+        "description": "靴を脱いでゆったりくつろげる、グループにも人気の座敷スペース。"
+      },
+      {
+        "key": "cooking",
+        "title": "料理風景",
+        "description": "鉄板で焼き上がる音と湯気が、食欲をぐっと引き寄せます。"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Local Details",
+    "title": "初めてでも入りやすい理由。",
+    "description": "観光客にも、地元客にも使いやすい「ちょうどいい」条件が揃っています。",
+    "items": [
+      {
+        "key": "late",
+        "title": "深夜1時まで営業",
+        "text": "夕食にも、2軒目にも使いやすい営業時間。石垣の夜をゆっくり楽しめます。"
+      },
+      {
+        "key": "monday",
+        "title": "年中無休",
+        "text": "定休日なし。旅程の隙間にも組み込みやすい営業スタイル。"
+      },
+      {
+        "key": "card",
+        "title": "カード利用可",
+        "text": "現金を気にせず、旅行中でも安心してご利用いただけます。"
+      },
+      {
+        "key": "walk",
+        "title": "徒歩4〜5分",
+        "text": "730交差点・バスターミナルから歩いて行きやすい、便利な立地。"
+      },
+      {
+        "key": "local",
+        "title": "ローカル人気店",
+        "text": "地元の人やリピーターに親しまれる、隠れ家的な一軒。"
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Guest Voice",
+    "title": "「当たりの店」 を見つけた夜に。",
+    "description": "作り込まれた観光地感ではなく、地元の空気がある一軒として。",
+    "items": [
+      {
+        "quote": "地元の人が入っていて、ここ絶対うまいと思った。石垣に来たらまた絶対来ます。",
+        "name": "石垣島旅行中のお客様",
+        "source": "Googleクチコミ"
+      },
+      {
+        "quote": "2軒目で入ったら居心地が良すぎて、気づいたら深夜になってた。",
+        "name": "リピーターのお客様",
+        "source": "食べログ"
+      },
+      {
+        "quote": "鉄板の香りと泡盛で、石垣の夜を感じた。石垣牛が絶品でした。",
+        "name": "観光でご来店",
+        "source": "Instagramより"
+      }
+    ]
+  },
+  "instagram": {
+    "eyebrow": "Instagram",
+    "title": "わざおぎの今夜",
+    "description": "料理、店内の空気、島の夜。最新情報はInstagramで発信中。",
+    "view": "Instagramで見る",
+    "posts": [
+      {
+        "key": "teppan",
+        "title": "今日の鉄板焼き",
+        "time": "Tonight 18:30",
+        "likes": "128",
+        "text": "ジュウジュウ焼ける音まで届きそうな、今夜のおすすめ。"
+      },
+      {
+        "key": "roll",
+        "title": "ヘルシーネバネバのり巻き",
+        "time": "Yesterday",
+        "likes": "96",
+        "text": "常連さんにも人気。軽くつまめて、泡盛にも合う一品。"
+      },
+      {
+        "key": "interior",
+        "title": "店内風景",
+        "time": "2 days ago",
+        "likes": "142",
+        "text": "提灯と木目のあたたかさ。初めてでも落ち着ける距離感。"
+      },
+      {
+        "key": "local",
+        "title": "常連さん人気メニュー",
+        "time": "This week",
+        "likes": "117",
+        "text": "地元の夜に混ざるなら、まずは鉄板料理から。"
+      },
+      {
+        "key": "night",
+        "title": "石垣島の夜",
+        "time": "This week",
+        "likes": "154",
+        "text": "少し歩いた路地で見つける、あたたかい灯り。"
+      }
+    ],
+    "cta": {
+      "eyebrow": "Follow Us",
+      "title": "今夜のわざおぎを覗いてみる",
+      "description": "今日のおすすめ料理や営業情報を更新中",
+      "button": "Instagramを見る"
+    }
+  },
+  "access": {
+    "eyebrow": "Access",
+    "title": "中心地から少し歩いた、夜に見つけたい一軒。",
+    "description": "730交差点・バスターミナルから徒歩4〜5分。食事にも、飲み直しにも寄りやすい場所です。",
+    "name": "店舗名",
+    "address": "住所",
+    "access": "アクセス",
+    "hours": "営業時間",
+    "budget": "予算",
+    "phone": "電話",
+    "mapTitle": "鉄板居酒屋 わざおぎ周辺のGoogle Map"
+  },
+  "reservation": {
+    "eyebrow": "Reservation",
+    "title": "今夜の石垣島を予約する",
+    "description": "席数には限りがあります。LINE・食べログ・ホットペッパーから、行きやすい方法でご予約ください。",
+    "mascotAlt": "黒フレンチブルドッグの看板犬",
+    "mascotNote": "看板犬も、今夜の一杯を待っています。",
+    "button": "予約する",
+    "cards": {
+      "line": {
+        "title": "LINE予約",
+        "text": "気軽にLINEで空席確認・予約ができます。"
+      },
+      "tabelog": {
+        "title": "食べログ",
+        "text": "口コミや店舗情報を確認しながら予約できます。"
+      },
+      "hotpepper": {
+        "title": "ホットペッパー",
+        "text": "ポイント利用や予約確認が手軽にできます。"
+      }
+    }
+  },
+  "footer": {
+    "lead": "夜の石垣島、鉄板の熱気、地元に混ざるような一杯。深夜まで楽しめるローカル鉄板居酒屋です。",
+    "mascot": "黒フレンチブルドッグのマスコット",
+    "instagram": "Instagram",
+    "follow": "フォローする",
+    "hours": "営業時間"
+  }
+}

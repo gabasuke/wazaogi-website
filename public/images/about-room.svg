@@ -1,0 +1,18 @@
+<svg width="1040" height="820" viewBox="0 0 1040 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1040" height="820" fill="#081221"/>
+  <rect y="420" width="1040" height="400" fill="#1B120B"/>
+  <path d="M0 0H1040V480C800 420 620 420 420 485C252 540 110 530 0 492V0Z" fill="#10273A"/>
+  <rect x="112" y="145" width="816" height="505" rx="32" fill="#2B1A10"/>
+  <rect x="154" y="194" width="728" height="380" rx="18" fill="#120D0A"/>
+  <path d="M168 575H876" stroke="#8B5A34" stroke-width="18"/>
+  <path d="M214 235H344V525H214V235ZM455 235H585V525H455V235ZM696 235H826V525H696V235Z" fill="#3A2416"/>
+  <path d="M279 170V88M520 170V72M761 170V100" stroke="#B76225" stroke-width="8" stroke-linecap="round"/>
+  <rect x="222" y="170" width="114" height="154" rx="57" fill="#FF9F43"/>
+  <rect x="463" y="170" width="114" height="154" rx="57" fill="#FF9F43"/>
+  <rect x="704" y="170" width="114" height="154" rx="57" fill="#FF9F43"/>
+  <g opacity=".38" stroke="#FFE2B8" stroke-width="7">
+    <path d="M224 230H334M224 286H334M465 230H575M465 286H575M706 230H816M706 286H816"/>
+  </g>
+  <ellipse cx="520" cy="705" rx="300" ry="52" fill="#FF9F43" opacity=".16"/>
+  <circle cx="520" cy="272" r="320" fill="#FF9F43" opacity=".09"/>
+</svg>

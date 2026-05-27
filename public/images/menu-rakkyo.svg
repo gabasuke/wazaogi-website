@@ -1,0 +1,16 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="520" fill="#0B1726"/>
+  <circle cx="560" cy="110" r="160" fill="#FF9F43" opacity=".18"/>
+  <ellipse cx="360" cy="316" rx="245" ry="124" fill="#F8F0DD"/>
+  <g stroke="#E9D4B1" stroke-width="34" stroke-linecap="round">
+    <path d="M226 312C276 252 314 232 352 206"/>
+    <path d="M310 336C356 274 396 242 448 214"/>
+    <path d="M402 350C448 300 486 270 526 248"/>
+  </g>
+  <g stroke="#2F7D5E" stroke-width="10" stroke-linecap="round">
+    <path d="M340 208C326 160 318 130 294 98"/>
+    <path d="M448 216C468 162 490 124 532 92"/>
+    <path d="M526 250C548 212 580 178 626 148"/>
+  </g>
+  <text x="52" y="78" fill="#FFFFFF" font-family="serif" font-size="38" font-weight="700">Island Shallots</text>
+</svg>

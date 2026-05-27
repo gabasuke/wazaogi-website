@@ -1,0 +1,10 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="520" fill="#09182B"/>
+  <circle cx="135" cy="110" r="140" fill="#2F7D5E" opacity=".3"/>
+  <ellipse cx="360" cy="310" rx="260" ry="134" fill="#F7EFE1"/>
+  <path d="M210 250L520 205L500 270L232 322L210 250Z" fill="#E85D5A"/>
+  <path d="M238 333L548 286L516 354L250 402L238 333Z" fill="#F2A7A0"/>
+  <path d="M282 244L348 234M320 321L392 310M410 221L486 210M432 300L510 288" stroke="#FFF5ED" stroke-width="12" stroke-linecap="round" opacity=".8"/>
+  <path d="M160 380C232 430 506 438 582 360" stroke="#FF9F43" stroke-width="13" stroke-linecap="round" opacity=".45"/>
+  <text x="52" y="78" fill="#FFFFFF" font-family="serif" font-size="38" font-weight="700">Island Sashimi</text>
+</svg>

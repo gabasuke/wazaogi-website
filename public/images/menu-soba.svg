@@ -1,0 +1,14 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="520" fill="#081221"/>
+  <circle cx="132" cy="92" r="160" fill="#2F7D5E" opacity=".24"/>
+  <ellipse cx="360" cy="310" rx="245" ry="150" fill="#332018"/>
+  <ellipse cx="360" cy="292" rx="210" ry="104" fill="#8A4C2B"/>
+  <g stroke="#F6D58B" stroke-width="12" stroke-linecap="round" opacity=".9">
+    <path d="M232 284C308 250 408 252 492 288"/>
+    <path d="M248 318C326 284 422 288 486 322"/>
+    <path d="M286 350C342 324 410 324 458 350"/>
+  </g>
+  <circle cx="282" cy="244" r="30" fill="#E6C475"/>
+  <path d="M430 225L520 192" stroke="#2F7D5E" stroke-width="18" stroke-linecap="round"/>
+  <text x="52" y="78" fill="#FFFFFF" font-family="serif" font-size="38" font-weight="700">Okinawa Soba</text>
+</svg>

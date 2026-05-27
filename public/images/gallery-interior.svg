@@ -1,0 +1,14 @@
+<svg width="900" height="640" viewBox="0 0 900 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="640" fill="#091625"/>
+  <path d="M0 0H900V360C690 292 548 308 410 360C250 420 110 408 0 374V0Z" fill="#112B3E"/>
+  <rect x="86" y="168" width="728" height="340" rx="32" fill="#25160D"/>
+  <rect x="134" y="215" width="632" height="200" rx="18" fill="#100B08"/>
+  <path d="M166 430H734" stroke="#915A31" stroke-width="20" stroke-linecap="round"/>
+  <g fill="#FF9F43">
+    <rect x="196" y="84" width="92" height="130" rx="46"/>
+    <rect x="404" y="64" width="92" height="130" rx="46"/>
+    <rect x="612" y="84" width="92" height="130" rx="46"/>
+  </g>
+  <circle cx="450" cy="240" r="290" fill="#FF9F43" opacity=".1"/>
+  <text x="52" y="88" fill="#FFFFFF" font-family="serif" font-size="42" font-weight="700">Interior</text>
+</svg>

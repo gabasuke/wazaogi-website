@@ -1,0 +1,10 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="520" fill="#100D0A"/>
+  <circle cx="140" cy="90" r="160" fill="#FF9F43" opacity=".2"/>
+  <rect x="142" y="218" width="436" height="164" rx="34" fill="#1A1A18"/>
+  <path d="M220 278C294 202 448 202 514 278C458 360 284 362 220 278Z" fill="#8A2F21"/>
+  <path d="M250 280C315 238 418 232 486 270" stroke="#F7A66D" stroke-width="20" stroke-linecap="round" opacity=".78"/>
+  <path d="M225 394C306 432 470 430 544 386" stroke="#2F7D5E" stroke-width="15" stroke-linecap="round"/>
+  <path d="M304 202C280 164 312 138 290 98M438 200C414 160 456 136 430 96" stroke="#E5E5E5" stroke-width="8" stroke-linecap="round" opacity=".23"/>
+  <text x="52" y="78" fill="#FFFFFF" font-family="serif" font-size="38" font-weight="700">Teppan Meat</text>
+</svg>

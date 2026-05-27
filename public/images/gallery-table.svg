@@ -1,0 +1,12 @@
+<svg width="900" height="640" viewBox="0 0 900 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="640" fill="#0C1828"/>
+  <circle cx="720" cy="112" r="180" fill="#2F7D5E" opacity=".28"/>
+  <rect x="110" y="188" width="680" height="305" rx="28" fill="#20130C"/>
+  <ellipse cx="450" cy="400" rx="268" ry="84" fill="#7C4A28"/>
+  <ellipse cx="450" cy="382" rx="260" ry="72" fill="#A46232"/>
+  <circle cx="324" cy="358" r="46" fill="#F5E6D0"/>
+  <circle cx="462" cy="356" r="46" fill="#F5E6D0"/>
+  <circle cx="598" cy="358" r="46" fill="#F5E6D0"/>
+  <rect x="382" y="86" width="136" height="150" rx="68" fill="#FF9F43"/>
+  <text x="52" y="88" fill="#FFFFFF" font-family="serif" font-size="42" font-weight="700">Table</text>
+</svg>

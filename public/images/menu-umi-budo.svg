@@ -1,0 +1,13 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="520" fill="#081221"/>
+  <circle cx="590" cy="88" r="170" fill="#2F7D5E" opacity=".34"/>
+  <ellipse cx="360" cy="315" rx="240" ry="130" fill="#E9F2E2"/>
+  <g fill="#6BCD6B">
+    <circle cx="250" cy="250" r="16"/><circle cx="286" cy="266" r="14"/><circle cx="322" cy="252" r="17"/>
+    <circle cx="360" cy="270" r="15"/><circle cx="398" cy="248" r="16"/><circle cx="436" cy="272" r="14"/>
+    <circle cx="472" cy="252" r="17"/><circle cx="278" cy="326" r="15"/><circle cx="318" cy="344" r="16"/>
+    <circle cx="358" cy="326" r="14"/><circle cx="400" cy="348" r="17"/><circle cx="444" cy="328" r="15"/>
+  </g>
+  <path d="M234 296C320 248 414 251 498 299" stroke="#2F7D5E" stroke-width="12" stroke-linecap="round"/>
+  <text x="52" y="78" fill="#FFFFFF" font-family="serif" font-size="38" font-weight="700">Sea Grapes</text>
+</svg>

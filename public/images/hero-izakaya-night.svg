@@ -1,0 +1,33 @@
+<svg width="1800" height="1200" viewBox="0 0 1800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1800" height="1200" fill="#081221"/>
+  <circle cx="1370" cy="230" r="250" fill="#2F7D5E" opacity=".22"/>
+  <circle cx="560" cy="360" r="290" fill="#FF9F43" opacity=".18"/>
+  <path d="M0 845C246 735 456 690 704 746C992 811 1152 704 1800 610V1200H0V845Z" fill="#07101D"/>
+  <path d="M0 770C260 664 483 649 696 694C990 756 1225 622 1800 545V1200H0V770Z" fill="#0D1E31"/>
+  <rect x="560" y="338" width="680" height="610" rx="26" fill="#24170F"/>
+  <rect x="618" y="402" width="564" height="486" rx="14" fill="#100D0B"/>
+  <path d="M530 335H1270L1207 245H593L530 335Z" fill="#3A2416"/>
+  <path d="M645 468H1155V888H645V468Z" fill="#170F0B"/>
+  <path d="M705 508H840V888H705V508Z" fill="#342013"/>
+  <path d="M962 508H1097V888H962V508Z" fill="#342013"/>
+  <rect x="878" y="456" width="44" height="432" fill="#6A3E1F" opacity=".9"/>
+  <ellipse cx="900" cy="456" rx="96" ry="70" fill="#FF9F43" opacity=".25"/>
+  <rect x="822" y="214" width="156" height="214" rx="78" fill="#FF9F43"/>
+  <path d="M828 275H972M828 366H972" stroke="#7A2E12" stroke-width="8" opacity=".45"/>
+  <path d="M900 214V138" stroke="#C66A25" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="900" cy="322" r="52" fill="#FFD29B" opacity=".22"/>
+  <g opacity=".65">
+    <rect x="360" y="540" width="92" height="140" rx="46" fill="#FF9F43"/>
+    <rect x="1315" y="460" width="82" height="126" rx="41" fill="#FF9F43"/>
+    <rect x="250" y="705" width="58" height="90" rx="29" fill="#FF9F43"/>
+  </g>
+  <path d="M250 1000C488 900 678 936 894 969C1118 1004 1334 1012 1555 922" stroke="#FF9F43" stroke-width="3" opacity=".25"/>
+  <rect width="1800" height="1200" fill="url(#grain)" opacity=".34"/>
+  <defs>
+    <pattern id="grain" width="80" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="12" r="1" fill="#fff" opacity=".18"/>
+      <circle cx="56" cy="44" r="1" fill="#fff" opacity=".12"/>
+      <circle cx="34" cy="70" r="1" fill="#fff" opacity=".16"/>
+    </pattern>
+  </defs>
+</svg>
