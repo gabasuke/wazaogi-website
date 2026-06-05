@@ -13,7 +13,7 @@ export function SectionHeading({ eyebrow, title, description, align = "center" }
         {title}
       </h2>
       {description ? (
-        <p className="mx-auto mt-4 max-w-136 text-sm leading-7 text-mist/82 sm:mt-5 sm:text-lg sm:leading-8">{description}</p>
+        <p className="mx-auto mt-4 w-full max-w-2xl text-sm leading-7 text-mist/82 sm:mt-5 sm:text-base sm:leading-8">{description}</p>
       ) : null}
     </div>
   );

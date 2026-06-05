@@ -28,6 +28,7 @@ html {
 body {
   min-height: 100vh;
   margin: 0;
+  overflow-x: hidden;
   background:
     radial-gradient(circle at bottom, rgba(255, 159, 67, 0.1), transparent 44%),
     radial-gradient(circle at 10% 90%, rgba(255, 159, 67, 0.07), transparent 28rem),
@@ -91,12 +92,14 @@ a {
 
 .jp-heading {
   word-break: keep-all;
-  overflow-wrap: normal;
+  overflow-wrap: break-word;
   line-break: strict;
   text-wrap: balance;
 }
 
 .jp-copy {
+  word-break: keep-all;
+  overflow-wrap: break-word;
   line-break: strict;
   text-wrap: pretty;
 }

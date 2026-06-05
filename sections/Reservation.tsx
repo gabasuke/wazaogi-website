@@ -26,7 +26,7 @@ export function Reservation() {
               <p className="text-xs font-bold uppercase tracking-[0.34em] text-lantern">
                 {t("eyebrow")}
               </p>
-              <h2 className="mt-4 font-display text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
+              <h2 className="mt-4 font-display text-2xl font-semibold leading-tight text-white sm:text-4xl lg:text-6xl">
                 {t("title")}
               </h2>
               <p className="mt-5 max-w-md text-base leading-8 text-mist/78 sm:text-lg">
@@ -39,7 +39,7 @@ export function Reservation() {
             </div>
 
             {/* 右: 予約カード */}
-            <div className="grid gap-4 sm:grid-cols-3">
+            <div className="grid grid-cols-1 gap-4 min-[480px]:grid-cols-3">
               {reservationCards.map((card) => {
                 const Icon = card.icon;
 

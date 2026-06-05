@@ -38,7 +38,7 @@ export function Reviews() {
               </div>
 
               {/* レビュー本文 */}
-              <p className="mt-5 flex-1 font-display text-xl leading-9 text-white/92">
+              <p className="mt-5 flex-1 font-display text-base leading-8 text-white/92 sm:text-xl sm:leading-9">
                 {review.quote}
               </p>
 

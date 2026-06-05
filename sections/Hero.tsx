@@ -61,7 +61,7 @@ export function Hero() {
           </motion.div>
 
           {/* メインキャッチコピー */}
-          <h1 className="font-display text-[2.65rem] font-semibold leading-[1.13] tracking-[-0.03em] text-white min-[380px]:text-5xl sm:text-7xl lg:text-8xl xl:text-9xl">
+          <h1 className="font-display text-[2rem] font-semibold leading-[1.13] tracking-[-0.03em] text-white min-[360px]:text-[2.4rem] min-[380px]:text-5xl sm:text-7xl lg:text-8xl xl:text-9xl">
             {t("hero.title")}
           </h1>
 

@@ -37,7 +37,7 @@ export function About() {
           />
 
           {/* 特徴カード */}
-          <div className="mt-9 grid gap-4 sm:grid-cols-3">
+          <div className="mt-9 grid grid-cols-1 gap-4 min-[500px]:grid-cols-3">
             {(["local", "travel", "warm"] as const).map((item) => (
               <div
                 key={item}
