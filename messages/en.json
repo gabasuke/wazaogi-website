@@ -1,6 +1,8 @@
 {
   "brand": {
-    "name": "Teppan Izakaya Wazaogi"
+    "name": "Teppan Izakaya Wazaogi",
+    "name1": "Teppan Izakaya",
+    "name2": "Wazaogi"
   },
   "nav": {
     "about": "About",

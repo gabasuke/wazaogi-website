@@ -18,7 +18,7 @@ export function Features() {
     <AnimatedSection id="features" className="px-5 py-24 sm:px-8 lg:py-32">
       <div className="mx-auto max-w-7xl">
         <SectionHeading eyebrow={t("eyebrow")} title={t("title")} description={t("description")} />
-        <div className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="mt-14 grid min-w-0 grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {items.map((item, index) => {
             const Icon = featureIconMap[item.key];
             const isHighlight = index === 0; // "深夜1時まで" を大きくフィーチャー
@@ -26,9 +26,9 @@ export function Features() {
             return (
               <article
                 key={item.key}
-                className={`group relative overflow-hidden rounded-3xl border transition duration-500 hover:-translate-y-2 ${
+                className={`group relative min-w-0 overflow-hidden rounded-3xl border transition duration-500 hover:-translate-y-2 ${
                   isHighlight
-                    ? "border-lantern/35 bg-[radial-gradient(circle_at_30%_20%,rgba(255,159,67,0.18),transparent_70%),rgba(20,20,20,0.7)] col-span-1 sm:col-span-2 lg:col-span-1"
+                    ? "border-lantern/35 bg-[radial-gradient(circle_at_30%_20%,rgba(255,159,67,0.18),transparent_70%),rgba(20,20,20,0.7)] col-span-full sm:col-span-2 lg:col-span-1"
                     : "glass-card border-white/8"
                 } p-5 lg:p-6`}
               >

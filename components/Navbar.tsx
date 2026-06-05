@@ -49,7 +49,13 @@ export function Navbar() {
               />
             </span>
             <span>
-              <span className="block font-display text-base font-semibold tracking-[0.18em] text-white sm:text-lg">
+              <span className="block font-display text-[13px] font-semibold leading-tight tracking-[0.14em] text-mist/60 sm:hidden">
+                {t("brand.name1")}
+              </span>
+              <span className="block font-display text-base font-semibold leading-[1.2] tracking-[0.18em] text-white sm:hidden">
+                {t("brand.name2")}
+              </span>
+              <span className="hidden font-display text-lg font-semibold tracking-[0.18em] text-white sm:block">
                 {t("brand.name")}
               </span>
               <span className="block text-[10px] uppercase tracking-[0.3em] text-white/50">
