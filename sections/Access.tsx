@@ -86,10 +86,17 @@ export function Access() {
         </div>
 
         {/* Google Map */}
+        {/*
+          TODO: 下記は住所検索ベースの簡易埋め込みURLです。
+          正式な埋め込みURLへの差し替えを推奨します（APIキー不要）:
+          1. maps.google.com で「沖縄県石垣市大川287-2 ミカサ商事ビル1F」を検索
+          2. 「共有」→「地図を埋め込む」タブを選択
+          3. 表示された iframe の src URL をコピーして下記 src と差し替え
+        */}
         <div className="min-h-96 overflow-hidden rounded-3xl border border-white/12 bg-white/5 shadow-2xl lg:min-h-[480px]">
           <iframe
             title={t("mapTitle")}
-            src="https://www.google.com/maps?q=%E6%B2%96%E7%B8%84%E7%9C%8C%E7%9F%B3%E5%9E%A3%E5%B8%82%E5%A4%A7%E5%B7%9D287-2&output=embed"
+            src="https://www.google.com/maps?q=%E6%B2%96%E7%B8%84%E7%9C%8C%E7%9F%B3%E5%9E%A3%E5%B8%82%E5%A4%A7%E5%B7%9D287-2%20%E3%83%9F%E3%82%AB%E3%82%B5%E5%95%86%E4%BA%8B%E3%83%93%E3%83%AB1F&output=embed"
             className="h-full min-h-96 w-full grayscale-[0.1] invert-[0.88] hue-rotate-180 lg:min-h-[480px]"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

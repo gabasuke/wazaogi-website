@@ -16,6 +16,7 @@ import {
   Wine
 } from "lucide-react";
 
+// TODO: 実際のInstagramアカウントのURLとハンドル名に差し替えてください
 export const INSTAGRAM_URL = "https://instagram.com/xxxxx";
 export const INSTAGRAM_HANDLE = "@wazaogi";
 
@@ -29,9 +30,13 @@ export const restaurant = {
   hours: "17:00〜翌1:00",
   hoursEn: "5:00 PM – 1:00 AM",
   budget: "3,000〜5,000円",
+  // TODO: 実際の電話番号に差し替えてください（現在はプレースホルダー）
   phone: "0980-00-0000",
+  // TODO: 実際のLINE公式アカウントURLに差し替えてください
   line: "https://line.me/",
+  // TODO: 実際の食べログ店舗ページURLに差し替えてください
   tabelog: "https://tabelog.com/",
+  // TODO: 実際のホットペッパー店舗ページURLに差し替えてください
   hotpepper: "https://www.hotpepper.jp/",
   instagram: INSTAGRAM_URL
 };

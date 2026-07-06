@@ -30,6 +30,7 @@ export default async function Home({ params }: Props) {
 
   setRequestLocale(locale);
 
+  // TODO: 本番ドメイン取得後、"wazaogi-ishigaki.example.com" を実際のドメインに差し替えてください（image / url の2箇所）
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Restaurant",

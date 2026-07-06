@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { getLocale } from "next-intl/server";
 import type { ReactNode } from "react";
 
 import "@/app/globals.css";
@@ -17,9 +18,12 @@ export const metadata: Metadata = {
   description: "石垣島の鉄板居酒屋",
 };
 
-export default function RootLayout({ children }: Props) {
+export default async function RootLayout({ children }: Props) {
+  // /en では lang="en"、/ja では lang="ja" になるよう、リクエストのロケールを反映する
+  const locale = await getLocale();
+
   return (
-    <html lang="ja">
+    <html lang={locale}>
       <body>{children}</body>
     </html>
   );

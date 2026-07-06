@@ -19,6 +19,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
   background: #081221;
   /* スクロールバー色（Chrome/Edge/Safari） */
   scrollbar-color: rgba(255, 159, 67, 0.3) rgba(8, 18, 33, 0.5);
@@ -92,9 +93,8 @@ a {
 
 .jp-heading {
   word-break: keep-all;
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
   line-break: strict;
-  text-wrap: balance;
 }
 
 .jp-copy {

@@ -21,6 +21,7 @@ export async function generateMetadata({
     : "石垣島で深夜まで楽しめる鉄板居酒屋わざおぎ。名物ネバネバのり巻きや鉄板料理を楽しめる地元人気店。";
 
   return {
+    // TODO: 本番ドメイン取得後、実際のドメインに差し替えてください
     metadataBase: new URL("https://wazaogi-ishigaki.example.com"),
     title,
     description,

@@ -3,17 +3,19 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
+import { useEffect, useRef, useState } from "react";
 
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { useLockBodyScroll } from "@/hooks/use-lock-body-scroll";
-import { navItems } from "@/lib/site";
+import { navItems, restaurant } from "@/lib/site";
 
 export function Navbar() {
   const t = useTranslations();
+  const locale = useLocale();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const drawerRef = useRef<HTMLElement>(null);
 
   useLockBodyScroll(menuOpen);
 
@@ -23,6 +25,52 @@ export function Navbar() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // ドロワー展開中は Tab フォーカスをドロワー内に閉じ込め、Escape で閉じる
+  useEffect(() => {
+    if (!menuOpen) {
+      return;
+    }
+
+    const drawer = drawerRef.current;
+    if (!drawer) {
+      return;
+    }
+
+    const getFocusables = () =>
+      Array.from(drawer.querySelectorAll<HTMLElement>('a[href], button:not([disabled])'));
+
+    getFocusables()[0]?.focus();
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setMenuOpen(false);
+        return;
+      }
+      if (e.key !== "Tab") {
+        return;
+      }
+
+      const focusables = getFocusables();
+      if (focusables.length === 0) {
+        return;
+      }
+
+      const first = focusables[0];
+      const last = focusables[focusables.length - 1];
+
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [menuOpen]);
 
   const closeMenu = () => setMenuOpen(false);
 
@@ -37,7 +85,7 @@ export function Navbar() {
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
           {/* ロゴ */}
-          <a href="#top" className="group flex items-center gap-3" onClick={closeMenu}>
+          <a href="#top" className="group flex min-w-0 items-center gap-3" onClick={closeMenu}>
             <span className="relative grid size-11 shrink-0 place-items-center overflow-hidden rounded-full border border-lantern/40 bg-lantern/15">
               <Image
                 src="/images/wazaogi-mascot-icon-round.png"
@@ -48,17 +96,17 @@ export function Navbar() {
                 unoptimized
               />
             </span>
-            <span>
-              <span className="block font-display text-[13px] font-semibold leading-tight tracking-[0.14em] text-mist/60 sm:hidden">
+            <span className="min-w-0">
+              <span className="block whitespace-nowrap font-display text-[13px] font-semibold leading-tight tracking-[0.14em] text-mist/60 sm:hidden">
                 {t("brand.name1")}
               </span>
-              <span className="block font-display text-base font-semibold leading-[1.2] tracking-[0.18em] text-white sm:hidden">
+              <span className="block whitespace-nowrap font-display text-base font-semibold leading-[1.2] tracking-[0.18em] text-white sm:hidden">
                 {t("brand.name2")}
               </span>
               <span className="hidden font-display text-lg font-semibold tracking-[0.18em] text-white sm:block">
                 {t("brand.name")}
               </span>
-              <span className="block text-[10px] uppercase tracking-[0.3em] text-white/50">
+              <span className="hidden whitespace-nowrap text-[10px] uppercase tracking-[0.3em] text-white/50 sm:block">
                 Teppan Izakaya · Ishigaki
               </span>
             </span>
@@ -131,6 +179,10 @@ export function Navbar() {
 
             {/* ドロワー */}
             <motion.nav
+              ref={drawerRef}
+              role="dialog"
+              aria-modal="true"
+              aria-label={locale === "en" ? "Navigation menu" : "ナビゲーションメニュー"}
               className="fixed inset-y-0 right-0 z-40 flex w-72 flex-col bg-[#081221] px-8 pt-24 pb-10 shadow-[−8px_0_60px_rgba(0,0,0,.6)] lg:hidden"
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
@@ -162,10 +214,10 @@ export function Navbar() {
               <div className="mt-auto pt-8 border-t border-white/8">
                 <p className="text-xs text-mist/45 tracking-widest mb-2">CALL US</p>
                 <a
-                  href="tel:0980-00-0000"
+                  href={`tel:${restaurant.phone}`}
                   className="font-display text-xl text-lantern hover:text-white transition"
                 >
-                  0980-00-0000
+                  {restaurant.phone}
                 </a>
                 <p className="mt-1 text-xs text-mist/50">17:00 〜 翌1:00</p>
               </div>

@@ -4,17 +4,43 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import { ChevronDown, Clock, MapPin } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { useSyncExternalStore } from "react";
 
 import { CTAButton } from "@/components/CTAButton";
 import { HeroInstagramCard } from "@/components/HeroInstagramCard";
 import { Mascot } from "@/components/Mascot";
 import { Navbar } from "@/components/Navbar";
 
+/** 日本時間の現在時刻で営業中（17:00〜翌1:00）かどうかを判定する */
+function isOpenNowInJapan(): boolean {
+  const hour = Number(
+    new Intl.DateTimeFormat("en-US", {
+      timeZone: "Asia/Tokyo",
+      hour: "numeric",
+      hour12: false
+    }).format(new Date())
+  );
+  return hour >= 17 || hour < 1;
+}
+
+// 1分ごとに営業判定を再購読させるストア（開店・閉店をまたいでも表示が追従する）
+function subscribeToClock(onStoreChange: () => void) {
+  const timer = setInterval(onStoreChange, 60_000);
+  return () => clearInterval(timer);
+}
+
+/** 営業中判定。SSR中は null を返し、ハイドレーション不一致を避ける */
+function useIsOpenNow(): boolean | null {
+  return useSyncExternalStore(subscribeToClock, isOpenNowInJapan, () => null);
+}
+
 export function Hero() {
   const t = useTranslations();
   const { scrollY } = useScroll();
   const imageY = useTransform(scrollY, [0, 700], [0, 90]);
   const imageScale = useTransform(scrollY, [0, 700], [1.06, 1.18]);
+
+  const isOpen = useIsOpenNow();
 
   return (
     <section id="top" className="relative min-h-svh overflow-hidden">
@@ -88,8 +114,18 @@ export function Hero() {
           >
             <Clock className="size-3.5 text-lantern/80" />
             <span>毎日 17:00 〜 翌1:00</span>
-            <span className="inline-block size-1.5 rounded-full bg-green-400 shadow-[0_0_8px_rgba(74,222,128,0.8)]" />
-            <span className="text-green-400/90">本日営業中</span>
+            {isOpen !== null &&
+              (isOpen ? (
+                <>
+                  <span className="inline-block size-1.5 rounded-full bg-green-400 shadow-[0_0_8px_rgba(74,222,128,0.8)]" />
+                  <span className="text-green-400/90">本日営業中</span>
+                </>
+              ) : (
+                <>
+                  <span className="inline-block size-1.5 rounded-full bg-lantern shadow-[0_0_8px_rgba(255,159,67,0.8)]" />
+                  <span className="text-lantern/90">本日の営業は17時から</span>
+                </>
+              ))}
           </motion.div>
 
           <div className="mt-4 max-w-76 min-[380px]:max-w-sm sm:hidden">
